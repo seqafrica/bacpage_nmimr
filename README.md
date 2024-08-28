@@ -38,7 +38,7 @@ bash Mambaforge-$(uname)-$(uname -m).sh
 
 2. Clone the bacpage repository:
 ```commandline
-git clone https://github.com/CholGen/bacpage.git
+git clone https://github.com/seqafrica/bacpage_nmimr.git
 ```
 
 3. Switch to the development branch of the pipeline:
