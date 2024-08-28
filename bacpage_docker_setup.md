@@ -19,3 +19,19 @@ docker build -t bacpage:latest .
 ```bash
 docker run --rm -it -v /path/to/your/data:/data bacpage:latest bacpage -h
 ```
+
+# Updating the BacPage Docker image 
+1. Pull the latest changes from the repository
+```bash
+git pull
+```
+2. Rebuild the Docker image
+```bash 
+docker build -t bacpage:latest .
+```
+
+# Updating BacPage
+1. Navigate to the directory where you cloned the BacPage repository on the command line
+```bash
+cd bacpage/
+```
